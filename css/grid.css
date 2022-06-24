@@ -357,3 +357,54 @@ flex-direction: row;
 /* Fin media queries */
        
 
+/* Inicio clases transiciones */
+
+.translate:hover {
+    transform: translateY(-10px);
+    transition: transform 1.5s;
+}
+.lineal-gradient {
+    background: rgb(201,205,179);
+background: linear-gradient(90deg, rgba(201,205,179,1) 0%, rgba(232,220,236,1) 50%, rgba(218,159,219,1) 100%);
+
+    }
+    
+    .gridNav ul li:hover{
+        transform: scale(1.1);
+        width: 10%;
+        min-width: max-content;
+        border: solid black;
+        background-color: rgb(182, 20, 20, 0.5);
+        transition: all 1.5s ;
+        
+}
+
+
+/* Fin transiciones */
+
+/* Inicio keyframes */
+
+@keyframes animation{
+    0%{background-color: gray;}
+    33%{background-color: bisque;}
+    66%{background-color: pink;}
+    99%{background-color: gray;}   
+    }
+
+.animateh1 {
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+@keyframes intro{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.svgIntro {
+    animation-name: intro;
+    animation-duration: 5s;
+    animation-iteration-count: initial;
+}
