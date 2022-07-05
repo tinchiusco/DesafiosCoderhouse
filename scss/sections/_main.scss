@@ -1,0 +1,7 @@
+.mainFlex {
+    flex-direction: row;
+    justify-content: space-around;
+     width: fit-content;
+     @include marginPadding;
+     
+}

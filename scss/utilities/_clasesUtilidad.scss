@@ -1,0 +1,40 @@
+.reducePhoto {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.photoBox {
+    width: 20%;
+    height: auto;
+}
+
+.photoBox2 {
+    width: 30%;
+    height: fit-content;
+}
+
+.photoBox3 {
+    width: 20%;
+}
+
+.mainFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin flexCenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin marginPadding {
+    margin: 1%;
+    padding: 1%;
+}
+    

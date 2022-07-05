@@ -1,0 +1,34 @@
+@keyframes animation {
+    0%{background-color: $color-blue;}
+    33%{background-color: $color-white;}
+    66%{background-color: $color-pink;}
+    99%{background-color: $color-blue;}
+}
+.animateh1 {
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+@keyframes intro{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.svgIntro {
+    animation-name: intro;
+    animation-duration: 5s;
+    animation-iteration-count: initial;
+}
+
+.translate:hover {
+    transform: translateY(-10px);
+    transition: transform 1.5s;
+    transform: scale(1.1);
+    width: 10%;
+    min-width: max-content;
+    border: solid black;
+    background-color: $color-white;
+    transition: all 1.5s ;
+}

@@ -1,0 +1,42 @@
+nav {
+    grid-area: nav;
+    width: 100vw;
+    min-width: fit-content;
+    & ul {
+        @include flexCenter;
+        justify-content: space-around; 
+        font-weight: 600;
+        font-size: 2rem;
+        & li {
+            list-style: none;
+            margin: 1%;
+            padding: .5%;
+            text-align: center;
+            & a {
+                text-decoration: none;
+                color: black;
+                }
+            }
+
+        }
+    }
+
+    .gridNav ul {
+        
+        
+        
+        
+        & li {
+            width: 10%;
+            min-width: max-content;
+            list-style: none;
+            margin: 1%;
+            padding: .5%;
+            text-align: center;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
