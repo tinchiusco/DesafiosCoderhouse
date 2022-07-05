@@ -134,13 +134,13 @@ aside ul li :hover {
 }
 
 .videoBox {
-  width: 100%;
-  height: 315px;
+  width: 60vh;
+  height: 20vw;
 }
 
 header {
   grid-area: header;
-  width: 100vw;
+  width: 100%;
 }
 header div {
   display: flex;
@@ -264,8 +264,7 @@ footer img {
 
 nav {
   grid-area: nav;
-  width: 100vw;
-  min-width: fit-content;
+  width: 100%;
 }
 nav ul {
   display: flex;

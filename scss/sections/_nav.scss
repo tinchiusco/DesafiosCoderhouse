@@ -1,7 +1,6 @@
 nav {
     grid-area: nav;
-    width: 100vw;
-    min-width: fit-content;
+    width: 100%;
     & ul {
         @include flexCenter;
         justify-content: space-around; 
